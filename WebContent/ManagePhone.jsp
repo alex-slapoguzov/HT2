@@ -55,13 +55,13 @@
             <td>
                 <input type="text" name="phone" value="<%=person.getPhones().get(idPhone)%>"/>
                 <input type="text" name="idPhone" hidden="true" value="<%=idPhone%>"/>
-                <input type="text" name="editPhoneGo" hidden="true" value="edit"/>
+                <input type="text" name="editNumber_go" hidden="true" value="edit"/>
             </td>
                 <%
             } else {
                 %>
             <td><input type="text" name="phone" value=""/></td>
-            <input type="text" name="addPhoneGo" hidden="true" value="add"/>
+            <input type="text" name="addNumber_go" hidden="true" value="add"/>
                 <%
             }
         %>
